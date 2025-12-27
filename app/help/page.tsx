@@ -1,13 +1,26 @@
-export default function GetHelp() {
+"use client";
+
+import { useState } from "react";
+import WarningBox from "@/components/WarningBox";
+import ScamSelector from "@/components/ScamSelector";
+import { ScamType, scams } from "@/data/scam";
+
+export default function HelpPage() {
+  const [selectedScam, setSelectedScam] = useState<ScamType | null>(null);
+
   return (
-    <>
-      <h1>GetHelp</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-        similique quidem ipsum odio doloremque iste quod incidunt. Temporibus,
-        sequi ratione, assumenda dolores perferendis suscipit animi facere
-        delectus nihil et voluptatem.
-      </p>
-    </>
+    <div>
+      <h1>Get Immediate Help</h1>
+
+      <ScamSelector onSelect={setSelectedScam} />
+
+      {selectedScam && (
+        <div className="mt-6 p-4 border border-gray-300 rounded">
+          <h2 className="text-xl font-bold">{scams[selectedScam].title}</h2>
+
+          <p className="mt-2">{scams[selectedScam].discription}</p>
+        </div>
+      )}
+    </div>
   );
 }
