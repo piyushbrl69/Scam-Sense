@@ -50,8 +50,8 @@ export default function AboutPage() {
               >
                 Anjali
               </a>
-              , this solo initiative focuses on building practical tools to
-              tackle real-world digital threats using modern tech.
+              , this initiative focuses on building practical tools to tackle
+              real-world digital threats using modern tech.
             </p>
           </div>
         </div>
