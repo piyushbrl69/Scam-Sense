@@ -42,6 +42,13 @@ export default function AboutPage() {
                 className="text-white hover:text-emerald-400 font-bold transition-colors underline decoration-emerald-500/30 underline-offset-4"
               >
                 Piyush
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://apandey-port.netlify.app/"
+                className="text-white hover:text-emerald-400 font-bold transition-colors underline decoration-emerald-500/30 underline-offset-4"
+              >
+                Anjali
               </a>
               , this solo initiative focuses on building practical tools to
               tackle real-world digital threats using modern tech.

@@ -8,18 +8,24 @@ export default function Footer() {
         </div>
         <div className="flex gap-8 text-slate-400 text-sm">
           <span>
-            Made with ❤️ and efforts
+            Crafted with &#10084; and dedication by{" "}
             <a
               href="https://piyush-portfolio-black.vercel.app/"
-              className="hover:text-emerald-500"
+              className="hover:text-emerald-500 text-white underline decoration-red-00"
             >
-              {" "}
-              by Piyush
+              Piyush
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://apandey-port.netlify.app/"
+              className="hover:text-emerald-500 text-white underline"
+            >
+              Anjali
             </a>
           </span>
           <a
-            href="https://github.com/piyushbrl69"
-            className="hover:text-emerald-500"
+            href="https://github.com/piyushbrl69/Scam-Sense"
+            className="hover:text-emerald-500 text-white underline"
           >
             Github
           </a>
