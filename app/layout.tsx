@@ -6,8 +6,6 @@ const inter = Inter({
   display: "swap",
 });
 
-import type { Metadata } from "next";
-
 export const metadata: Metadata = {
   title: "Scam Sense | Report Online Scams & Cyber Fraud Awareness Platform",
   description:
