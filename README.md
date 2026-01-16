@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ScamSense 🛡️
 
-## Getting Started
+**ScamSense** is a modern awareness platform designed to help users identify and bypass digital frauds through interactive guidance and realistic scam examples. It empowers potential victims with immediate recovery steps and direct access to official government reporting channels.
 
-First, run the development server:
+## 👥 Collaborative Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was co-developed with:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Piyush** ([@piyushbrl69](https://github.com/piyushbrl69))
+- **Anjali Pandey** ([@anjali-pandey-28](https://github.com/anjali-pandey-28))
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Interactive Scam Selector**: Categorized guidance for UPI, Phishing, Social Media, and Job frauds.
+- **Emergency Recovery Checklists**: Step-by-step instructions on what to do immediately after a scam occurs.
+- **Official Resource Hub**: Verified links to National Cyber Crime Portal, NCW, and Childline India.
+- **Responsive Glassmorphism UI**: High-trust design built for both desktop and mobile safety.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide-react
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Live Link
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **ScamSense** (![Live Link](https://github.com/piyushbrl69))
 
-## Deploy on Vercel
+## 🖼️ Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![App Screenshot](./ss.png)
