@@ -25,7 +25,7 @@ This project was co-developed with:
 
 ## Live Link
 
-- **ScamSense** (![Live Link](https://github.com/piyushbrl69))
+- **ScamSense** ([Live Link](https://scam-sense-web.vercel.app/))
 
 ## 🖼️ Preview
 

@@ -131,5 +131,92 @@ export const scams: Record<
       { label: "NCPCR POCSO e-Box", url: "https://ncpcr.gov.in/user_complaints" },
       { label: "Childline India (1098)", url: "https://www.childlineindia.org/" }
     ]
-  }
+  },
+  loan_app_scam: {
+  title: "Fake Loan App Scam",
+  discription: "Illegal or fake loan apps offering instant loans, then harassing, blackmailing, or extorting users using personal data.",
+  immediateSteps: [
+    "Call 1930 (National Cyber Crime Helpline) immediately",
+    "Report the app on cybercrime.gov.in",
+    "Uninstall the app and revoke all permissions",
+    "Inform your bank if any unauthorized debit occurred",
+    "Save screenshots of app name, messages, and transactions"
+  ],
+  avoid: [
+    "Do not install loan apps from unknown sources or ads",
+    "Never allow access to contacts, gallery, or microphone",
+    "Avoid apps not registered with RBI or NBFCs"
+  ],
+  links: [
+    { label: "National Cyber Crime Portal", url: "https://cybercrime.gov.in" },
+    { label: "RBI Sachet Portal", url: "https://sachet.rbi.org.in" },
+    { label: "RBI Warning on Digital Lending", url: "https://www.rbi.org.in/Scripts/FAQView.aspx?Id=148" }
+  ]
+},
+card_fraud: {
+  title: "Credit / Debit Card Fraud",
+  discription: "Unauthorized card transactions due to stolen card details, phishing links, fake customer care calls, or malware.",
+  immediateSteps: [
+    "Immediately block your card via bank app or helpline",
+    "Call 1930 to report the fraud",
+    "Register a complaint on cybercrime.gov.in",
+    "Raise a dispute with your bank",
+    "Change all banking and email passwords"
+  ],
+  avoid: [
+    "Never share CVV, expiry date, or OTP",
+    "Do not click unknown payment or refund links",
+    "Avoid saving card details on untrusted websites"
+  ],
+  links: [
+    { label: "National Cyber Crime Portal", url: "https://cybercrime.gov.in" },
+    { label: "RBI Sachet Portal", url: "https://sachet.rbi.org.in" },
+    { label: "RBI Card Safety Guidelines", url: "https://www.rbi.org.in/Scripts/FAQView.aspx?Id=156" }
+  ]
+},
+sextortion_scam: {
+  title: "Sextortion / Online Blackmail",
+  discription: "Victims are threatened with leaking private images or videos unless money is paid.",
+  immediateSteps: [
+    "Do NOT pay the blackmailer",
+    "Call 1930 immediately",
+    "Report on cybercrime.gov.in under Women/Child or Cyber Blackmail",
+    "Preserve chats, usernames, links, and payment details",
+    "Block and report the account on the platform used"
+  ],
+  avoid: [
+    "Avoid sharing private images or videos online",
+    "Do not engage further once threats begin",
+    "Never trust strangers asking for video calls quickly"
+  ],
+  links: [
+    { label: "National Cyber Crime Portal", url: "https://cybercrime.gov.in" },
+    { label: "Cyber Crime Reporting (Women & Child)", url: "https://cybercrime.gov.in/Webform/Crime_AuthoLogin.aspx" }
+  ]
+},
+
+insurance_fraud: {
+  title: "Insurance Fraud",
+  discription: "Fake insurance policies, fake agents, or fraud during claim settlement asking for illegal charges.",
+  immediateSteps: [
+    "Stop payment immediately",
+    "Verify policy details with the insurance company directly",
+    "Call 1930 if money is lost",
+    "Report the fraud on cybercrime.gov.in",
+    "File a complaint with IRDAI"
+  ],
+  avoid: [
+    "Do not buy insurance via WhatsApp or unknown agents",
+    "Never pay premiums to personal UPI or bank accounts",
+    "Always verify agent license with IRDAI"
+  ],
+  links: [
+    { label: "National Cyber Crime Portal", url: "https://cybercrime.gov.in" },
+    { label: "IRDAI Official Website", url: "https://www.irdai.gov.in" },
+    { label: "IRDAI Grievance Portal (Bima Bharosa)", url: "https://bimabharosa.irdai.gov.in" }
+  ]
+}
+
+
+
 };
