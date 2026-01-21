@@ -4,7 +4,11 @@ export type ScamType =
   | "instagram_scam"
   | "fake_job"
   | "women_safety"
-  | "child_safety";
+  | "child_safety"
+  | "loan_app_scam"
+  | "card_fraud"
+  | "sextortion_scam"
+  | "insurance_fraud";
 
 export const scams: Record<
   ScamType,
@@ -132,7 +136,7 @@ export const scams: Record<
       { label: "Childline India (1098)", url: "https://www.childlineindia.org/" }
     ]
   },
-  loan_app_scam: {
+   loan_app_scam: {
   title: "Fake Loan App Scam",
   discription: "Illegal or fake loan apps offering instant loans, then harassing, blackmailing, or extorting users using personal data.",
   immediateSteps: [
