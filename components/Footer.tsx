@@ -17,7 +17,7 @@ export default function Footer() {
             </a>{" "}
             and{" "}
             <a
-              href="https://apandey-port.netlify.app/"
+              href="https://anjalip.vercel.app/"
               className="hover:text-emerald-500 text-white underline"
             >
               Anjali

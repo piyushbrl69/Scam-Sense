@@ -17,7 +17,6 @@ export default function AboutPage() {
       <Navbar />
 
       <section className="py-24 px-6 max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000">
-        {/* Minimalist Hero */}
         <div className="text-center mb-20">
           <h1 className="text-5xl md:text-7xl font-black mb-8 tracking-tighter">
             Stop Scams <br />
@@ -45,7 +44,7 @@ export default function AboutPage() {
               </a>{" "}
               and{" "}
               <a
-                href="https://apandey-port.netlify.app/"
+                href="https://anjalip.vercel.app/"
                 className="text-white hover:text-emerald-400 font-bold transition-colors underline decoration-emerald-500/30 underline-offset-4"
               >
                 Anjali
